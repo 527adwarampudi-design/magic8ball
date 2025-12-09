@@ -1,0 +1,44 @@
+/* Page background */
+body {
+    background-color: #FDE2FF; /* Soft pastel pink */
+}
+
+/* Heading */
+h1 {
+    color: #FFB6C1; /* Baby pink */
+    filter: drop-shadow(2px 2px 3px #CDB4DB);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph / responses */
+p {
+    color: #957DAD; /* Muted lavender */
+    filter: drop-shadow(1px 1px 2px #FFC6FF);
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+/* Magic 8-Ball image */
+img {
+    padding-bottom: 35px;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+/* Swing keyframes (if not relying fully on Animate.css) */
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(-10deg); }
+    75% { transform: rotate(8deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Cute custom button */
+.btn-pink {
+    background-color: #FFB6C1;
+    color: white;
+    border: none;
+}
+
